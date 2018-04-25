@@ -1,0 +1,30 @@
+.index-loading {
+  position: fixed;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  -webkit-animation: progressRotate 0.6s linear infinite;
+  animation: progressRotate 0.6s linear infinite;
+}
+
+@-webkit-keyframes progressRotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes progressRotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}

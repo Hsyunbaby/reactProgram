@@ -1,0 +1,34 @@
+.Mfoot {
+  padding: 0.2em 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Mfoot p {
+  margin: 0 0 0.7em 0;
+}
+
+.Mfoot p.copyright {
+  color: #aaa;
+  font-size: 0.8em;
+}
+
+.Mfoot a {
+  color: #666;
+}
+
+.Mfoot p.cp a {
+  background: url(../img/computer.png) no-repeat 0 50%;
+  -webkit-background-size: 1.16667em .86667em;
+  -moz-background-size: 1.16667em .86667em;
+  -o-background-size: 1.16667em .86667em;
+  background-size: 1.16667em .86667em;
+  color: #88898D;
+  padding: 0 0 0 1.6667em;
+}
+
+.Mfoot em {
+  padding: 0 1em;
+  font-style: normal;
+  color: #a6a6a6;
+}

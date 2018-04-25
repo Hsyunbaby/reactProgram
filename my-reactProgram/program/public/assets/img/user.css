@@ -1,0 +1,166 @@
+#clear:after{ display:block; content:''; clear:both;}
+#clear{ zoom:1;background: #9e9a95;}
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .header {
+  width: 100%;
+  height: 120px;
+  background: #9e9a95;
+  padding-top: 10px;
+}
+.header h2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.header h2 img {
+  width: 100%;
+}
+.header .user-box {
+  width: 80px;
+  font-size: 17px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.user-box a {
+  color: #fff;
+}
+.header ul {
+  margin-top: 10px;
+}
+.header ul li {
+  width: 50%;
+  height: 40px;
+  float: left;
+  color: #fff;
+}
+.header ul li span {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+}
+.header ul li p {
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #fff;
+}
+.header ul li p.end {
+  border: 0;
+}
+
+.content .docList {
+  width: 500px;
+  margin: 0 auto;
+}
+.docList ul {
+  border-top: 1px solid #7b7c7c;
+}
+.docList ul li {
+  background: #fff;
+  height: 40px;
+  border-top: 1px solid #bcbbba;
+  border-bottom: 1px solid #7b7c7c;
+}
+.docList ul li span {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.docList ul li b {
+  width: 15px;
+  height: 15px;
+  background: url(../img/next_img.png) no-repeat 0 0;
+  background-size: 100%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.docList ul .gk-text i {
+  width: 16px;
+  height: 16px;
+  background: url(../img/gk_text.png) no-repeat 0 0;
+  background-size: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.gk-text p {
+  float: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.docList ul .mm-text i {
+  width: 16px;
+  height: 16px;
+  background: url(../img/mm_text.png) no-repeat 0 0;
+  background-size: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mm-text p {
+  float: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.docList ul .cg-text i {
+  width: 16px;
+  height: 16px;
+  background: url(../img/cg_text.png) no-repeat 0 0;
+  background-size: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.cg-text p {
+  float: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.docList ul .sc-text i {
+  width: 16px;
+  height: 16px;
+  background: url(../img/sc_text.png) no-repeat 0 0;
+  background-size: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sc-text p {
+  float: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.docList ul .my_cz {
+  margin-bottom: 10px;
+}
+.docList ul .my_cz i {
+  width: 16px;
+  height: 16px;
+  background: url(../img/my_cz.png) no-repeat 0 0;
+  background-size: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.my_cz p {
+  float: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
